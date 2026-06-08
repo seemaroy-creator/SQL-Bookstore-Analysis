@@ -49,23 +49,16 @@ erDiagram
     CUSTOMERS ||--o{ ORDERS : places
     BOOKS ||--o{ ORDERS : contains
 ```
+## SQL Queries
+The complete, ready-to-run MySQL script containing both the database setup tables and all analytical queries can be found here:
+* **Complete SQL Code:** [`bookstore_queries.sql`](./scripts/bookstore_queries.sql)1) 
 
----
-
-## Database Source Code
-The complete, ready-to-run SQL scripts for this project are organized into separate files for easy navigation:
-* **Table Creation & Schema Setup:** [`01_schema_setup.sql`](./scripts/01_schema_setup.sql)
-* **Data Analysis & Business Queries:** [`02_eda_queries.sql`](./scripts/02_eda_queries.sql)
-
----
 
 ##  Key Business Questions Addressed
 
 By executing the queries in this repository, the following business objectives are accomplished:
 
-1. **Data Integrity Audit:** Checking for missing or null values in critical fields across all tables.
-2. **Inventory Management:** Assessing the overall stock distribution and tracking available inventory by book genre.
-3. **Sales Performance:** Calculating total order volumes, tracking individual customer purchases, and monitoring total gross revenue.
-4.
-
-
+1) Retrieve the total number of books sold for each genre.
+2) Find the average price of books in the "Fantasy" genre.
+3) Find the most frequently ordered book.
+4) Find the customer who spent the most on order.
