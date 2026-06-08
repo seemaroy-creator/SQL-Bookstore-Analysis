@@ -51,7 +51,7 @@ erDiagram
 ```
 ## SQL Queries
 The complete, ready-to-run MySQL script containing both the database setup tables and all analytical queries can be found here:
-* **Complete SQL Code:** [`bookstore_queries.sql`](./scripts/bookstore_queries.sql)1) 
+* **Complete SQL Code:** [`bookstore_queries.sql`](./scripts/bookstore_queries.sql)
 
 
 ##  Key Business Questions Addressed
